@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Set character set and viewport for responsiveness -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Set the title of the document -->
+    <title>Login Form Styling</title>
+</head>
+<style>
+    /* Body styles */
+    body {
+        background-color: rgb(202, 240, 240);  /* Set the background color for the entire page */
+    }
+
+    /* Fieldset styles for form container */
+    fieldset {
+        display: block;
+        margin: 100px;
+        margin-left: 250px;
+        padding: 30px;
+        border-radius: 3px;
+        max-width: max-content;
+        box-shadow: 10px 10px 1px 1px silver;
+        background-color: rgb(199, 211, 211);
+        border: none;
+        text-shadow: 1px 1px 1px #6c7a89;  /* Add a subtle text shadow for better visibility */
+    }
+
+    /* Legend styles for form title */
+    legend {
+        font-size: large;
+        color: rgb(78, 99, 98);
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    /* Label styles for form input labels */
+    label {
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-left: 10px;
+    }
+
+    /* Input styles for form input fields */
+    input {
+        display: block;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 4px;
+        border: none;
+        outline: none;
+        width: 300px;
+    }
+
+    /* Button styles for form submission */
+    button {
+        width: 75px;
+        height: 30px;
+        margin-left: 10px;
+        margin-top: 10px;
+        cursor: pointer;
+        background-color: #6c7a89;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        transition: 0.4s ease-in-out;
+    }
+
+    /* Button hover effect */
+    button:hover {
+        background-color: #5d6e77;
+        transform: scale(1.2);
+        color: black;
+    }
+
+    /* Style for invalid email input */
+    input[type="email"]:invalid {
+        border: 2px solid red;  /* Apply a red border to indicate invalid email */
+    }
+</style>
+<body>
+    <!-- Form container with fieldset -->
+    <fieldset>
+        <legend>Login:</legend>
+        <!-- Form input fields -->
+        <label for="name">Your name</label>
+        <input type="text" id="name" required name="input">
+      
+        <label for="email">Your email</label>
+        <input type="email" id="email" required name="input">
+        
+        <!-- Form submission button -->
+        <button type="submit"  name="input">click</button>
+    </fieldset>
+</body>
+</html>
