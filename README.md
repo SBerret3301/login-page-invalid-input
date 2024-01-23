@@ -1,4 +1,5 @@
 
+
 Explanation:
 
 1. **Body Styles (body)**: Sets the background color for the entire page.
@@ -16,7 +17,5 @@ Explanation:
 7. **Button Hover Effect (button:hover)**: Adds a hover effect to the button, changing background color, size, and text color.
 
 8. **Invalid Email Style (input[type="email"]:invalid)**: Applies a red border to the email input when it is in an invalid state.
-
-9. **Invalid Name Style (input[type="text"]:invalid)**: Applies a red border to the name input when it is in an invalid state.
 
 The comments in the code provide explanations for each section.
